@@ -1,13 +1,31 @@
+<<<<<<< HEAD
+=======
+.content {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+ background-color: #52d2d2;
+  color: #333;
+  
+}
+
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 .page-container {
 background-color: #ffff;
   max-width: 1000px;
   margin: 0  auto;
+<<<<<<< HEAD
   
+=======
+   max-height: 150vh; /* or set a fixed height like 600px */
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
   overflow-y: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+<<<<<<< HEAD
 /* Make hero section responsive */
+=======
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 .hero-section {
   position: relative;
   width: 100%;
@@ -17,6 +35,15 @@ background-color: #ffff;
   margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.hero-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 
 .hero-overlay-text {
   position: absolute;
@@ -38,6 +65,7 @@ background-color: #ffff;
   
 }
 
+<<<<<<< HEAD
 
 /* Make text and buttons responsive */
 .hero-overlay-text h1 {
@@ -100,5 +128,77 @@ background-color: #ffff;
   .call-to-action .btn {
     font-size: 14px;
     padding: 10px 16px;
+=======
+.hero-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hero-btn:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 48%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.call-to-action .btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.call-to-action .btn:hover {
+  background-color: #218838;
+}
+/* fghj */
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
   }
 }

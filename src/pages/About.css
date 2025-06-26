@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Global body settings
 body {
   margin: 0;
@@ -6,6 +7,16 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
 } */
+=======
+/* Global body settings */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* disable body scroll */
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 
 /* Scrollable container */
 .page-container {
@@ -14,10 +25,13 @@ body {
   padding: 30px;
   box-sizing: border-box;
   background-color: #fff;
+<<<<<<< HEAD
   margin: 0 auto;
   max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+=======
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 }
 
 /* Headings */
@@ -57,6 +71,7 @@ ul li {
     transform: translateY(0);
   }
 }
+<<<<<<< HEAD
 
 /* ✅ Responsive adjustments */
 @media (max-width: 768px) {
@@ -97,3 +112,5 @@ ul li {
     font-size: 0.9rem;
   }
 }
+=======
+>>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
