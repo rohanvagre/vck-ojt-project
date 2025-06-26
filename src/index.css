@@ -69,7 +69,7 @@ button:focus-visible {
 body{
   background-color: #52d2d2;
   overflow: hidden;
-<<<<<<< HEAD
+
   
 }
 /* For all scrollbars */
@@ -95,6 +95,6 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(45deg, #43e97b, #38f9d7);
 }
-=======
-}
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
+
+
