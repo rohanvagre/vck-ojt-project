@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 /* Body scroll lock
 =======
 /* Body scroll lock */
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +8,8 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
   color: #333;
-<<<<<<< HEAD
-} */
-=======
-}
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+} 
+
 
 /* Scrollable page container */
 .page-container {
@@ -56,15 +51,12 @@ ol li {
 
 .admissions-table th,
 .admissions-table td {
-<<<<<<< HEAD
   border: 1px solid #1b0c0c !important;
   padding: 12px !important;
   text-align: left !important;
-=======
   border: 1px solid #ccc;
   padding: 12px;
   text-align: left;
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 }
 
 .admissions-table th {

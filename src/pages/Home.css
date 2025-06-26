@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 .content {
   font-family: 'Segoe UI', sans-serif;
   padding: 20px;
@@ -8,24 +7,18 @@
   
 }
 
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 .page-container {
 background-color: #ffff;
   max-width: 1000px;
   margin: 0  auto;
-<<<<<<< HEAD
   
-=======
    max-height: 150vh; /* or set a fixed height like 600px */
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
   overflow-y: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-<<<<<<< HEAD
 /* Make hero section responsive */
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
 .hero-section {
   position: relative;
   width: 100%;
@@ -35,15 +28,13 @@ background-color: #ffff;
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-=======
+
 .hero-banner-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 
 .hero-overlay-text {
   position: absolute;
@@ -65,7 +56,6 @@ background-color: #ffff;
   
 }
 
-<<<<<<< HEAD
 
 /* Make text and buttons responsive */
 .hero-overlay-text h1 {
@@ -128,8 +118,8 @@ background-color: #ffff;
   .call-to-action .btn {
     font-size: 14px;
     padding: 10px 16px;
-=======
-.hero-btn {
+  }
+    .hero-btn {
   background-color: #007bff;
   color: white;
   padding: 10px 25px;
@@ -190,7 +180,7 @@ ul li {
 .animate-fade-in-up {
   animation: fadeInUp 1s ease-out both;
 }
-
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -199,6 +189,5 @@ ul li {
   to {
     opacity: 1;
     transform: translateY(0);
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
   }
 }

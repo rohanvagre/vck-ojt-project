@@ -1,17 +1,11 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
 import Chatbot from '../components/Chatbot';
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 import './About.css'
 const About = () => {
   return (
    <div className="content">
-<<<<<<< HEAD
       <div style={{marginTop:'50px',maxHeight:'84vh'}} className="page-container ">
-=======
       <div style={{marginTop:'50px',maxHeight:'76vh'}} className="page-container ">
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
         <h1 style={{fontSize:'50px',color:'#007bff' }} className="animate-fade-in-up text-center ">About Vivekanand College</h1>
 
         <p>
@@ -49,11 +43,9 @@ const About = () => {
           proudly nurtured generations of successful alumni.
         </p>
       </div>
-<<<<<<< HEAD
       {/* <Chatbot/> */}
-=======
       <Chatbot/>
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+    </div>
     </div>
   );
 };

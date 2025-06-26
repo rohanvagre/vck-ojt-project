@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 /* Hide scroll from body
 =======
 /* Hide scroll from body */
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +8,9 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
   color: #333;
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
+
 
 /* Scroll only on this */
 .page-container {
@@ -23,13 +19,11 @@ body {
   padding: 30px;
   background-color: white;
   box-sizing: border-box;
-<<<<<<< HEAD
   margin: 0 auto;
   max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
 }
 
 /* Headings */
@@ -51,18 +45,15 @@ ul li {
 .video-container {
   margin-top: 20px;
   margin-bottom: 20px;
-<<<<<<< HEAD
   width: 100%;
 }
 
 .course-video {
   width: 100%;
   height: auto;
-=======
 }
 
 .course-video {
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
@@ -80,10 +71,7 @@ table.course-details-table {
   border-collapse: collapse;
   margin-top: 20px;
   margin-bottom: 30px;
-<<<<<<< HEAD
   font-size: 1rem;
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 }
 
 table.course-details-table th,
@@ -122,11 +110,8 @@ table.course-details-table tr:nth-child(even) {
   background-color: #218838;
 }
 
-<<<<<<< HEAD
 /* Animation */
-=======
-/* gh */
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
 .animate-fade-in-up {
   animation: fadeInUp 1s ease-out both;
 }
@@ -141,7 +126,6 @@ table.course-details-table tr:nth-child(even) {
     transform: translateY(0);
   }
 }
-<<<<<<< HEAD
 
 /* ========== Responsive Enhancements ========== */
 @media (max-width: 768px) {
@@ -200,5 +184,4 @@ table.course-details-table tr:nth-child(even) {
     font-size: 0.85rem;
   }
 }
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+

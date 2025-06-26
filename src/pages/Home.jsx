@@ -1,29 +1,19 @@
 import React from 'react';
-<<<<<<< HEAD
-
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 import { Link } from 'react-router-dom';
 import './Home.css'; // Make sure to include this CSS file
 
 const Home = () => {
   return (
     <div className="content">
-<<<<<<< HEAD
       <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container ">
-=======
       <div style={{marginTop:'50px',maxHeight:'76vh'}} className="page-container  p-4">
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
         <div className="hero-section">
           
           <div className="hero-overlay-text ">
             <h1 style={{color:'white'}} className='animate-fade-in-up'>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
-<<<<<<< HEAD
-            <Link className="btn bg-success hero-btn" to="/admissions" data-discover="true">
-=======
+            <Link className="btn bg-success hero-btn" to="/admissions" data-discover="true"></Link>
             <Link className="btn hero-btn" to="/admissions" data-discover="true">
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
               Apply Now!
             </Link>
           </div>
@@ -70,10 +60,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
-<<<<<<< HEAD
       {/* <Chatbot/> */}
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
+    </div>
     </div>
   );
 };

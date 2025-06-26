@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Body: lock scroll
 body {
   margin: 0;
@@ -10,7 +9,6 @@ body {
 } */
 
 /* Scrollable content container */
-=======
 /* Body: lock scroll */
 body {
   margin-top: 0;
@@ -22,22 +20,20 @@ body {
 }
 
 /* Scrollable container */
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 .page-container {
   max-height: 100vh;
   overflow-y: auto;
   padding: 30px;
   box-sizing: border-box;
   background-color: #fff;
-<<<<<<< HEAD
+
   margin: 0 auto;
   max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-=======
-}
+
 
 /* Headings */
 /* h1, h2 {
@@ -46,15 +42,12 @@ body {
   margin-bottom: 10px;
 } */
 
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 /* Paragraphs */
 p {
   margin-bottom: 15px;
   line-height: 1.6;
-<<<<<<< HEAD
   font-size: 1rem;
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+
 }
 
 /* Links */
@@ -67,7 +60,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-<<<<<<< HEAD
 
 /* ========== Responsive Enhancements ========== */
 @media (max-width: 768px) {
@@ -89,5 +81,4 @@ a:hover {
     font-size: 0.9rem;
   }
 }
-=======
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+

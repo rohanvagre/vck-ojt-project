@@ -1,18 +1,12 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
 import Chatbot from '../components/Chatbot';
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
 import { Link } from 'react-router-dom';
 import './Courses.css'
 const Courses = () => {
   return (
     <div className="content">
-<<<<<<< HEAD
       <div style={{marginTop:'50px',maxHeight:'84vh'}} className="page-container">
-=======
       <div style={{marginTop:'50px',maxHeight:'76vh'}}className="page-container">
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
         <h1 style={{textAlign:'center',color:'#007bff'}} className='animate-fade-in-up'>Our Academic Programs</h1>
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs
@@ -30,11 +24,8 @@ const Courses = () => {
             className="course-video"
           >
             <source
-<<<<<<< HEAD
-              src="/src/assets/vck3.mp4"
-=======
+              // src="/src/assets/vck3.mp4"
               src="public/college-tour.mp4"
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -129,11 +120,9 @@ const Courses = () => {
           </Link>
         </div>
       </div>
-<<<<<<< HEAD
       {/* <Chatbot/> */}
-=======
       <Chatbot/>
->>>>>>> f305dc2e3ab9b171712128da108dd77ca74ff49a
+    </div>
     </div>
   );
 };
