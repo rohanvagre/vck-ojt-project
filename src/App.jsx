@@ -13,7 +13,9 @@ import AdmissionsPage from './pages/Admissions';
 import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 import { useState } from 'react';
-import DeveloperinfoPopup from './components/DevloperInfo/DeveloperinfoPopup';
+
+import DeveloperInfoPopup from './components/DevloperInfo/DeveloperInfoPopup';
+
 
 
 function App() {
@@ -26,8 +28,8 @@ function App() {
     <>
       <div>
         {/* Your main application content */}
-    <DeveloperinfoPopup 
-    show={showPopup}
+    <DeveloperInfoPopup 
+     show={showPopup}
           onClose={handleClosePopup}
           studentName="Rohan Sanjay Vagre"
           studentPhotoUrl="/image.png" // Path to their photo
