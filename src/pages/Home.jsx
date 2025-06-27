@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="content">
       {/* <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container "> */}
-      <div style={{marginTop:'50px',maxHeight:'76vh'}} className="page-container  p-4">
+      <div style={{marginTop:'40px',maxHeight:'78vh'}} className="page-container  p-4">
         <div className="hero-section">
           
           <div className="hero-overlay-text ">
