@@ -42,7 +42,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/admissions" element={<AdmissionsPage />} />
         </Routes>
-
+        <ChatbotComponent/>
         <Footer1 />
       </Router>
     </>
