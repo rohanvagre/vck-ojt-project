@@ -4,9 +4,8 @@ import Chatbot from '../components/Chatbot';
 
 const Contact = () => {
   return (
-    <div  className="content">
-      <div style={{marginTop:'74px',maxHeight:'80vh'}}  className="page-container">
-      <div style={{marginTop:'50px',maxHeight:'76vh'}}  className="page-container">
+    <div className="content">
+      <div style={{ marginTop: '74px', maxHeight: '80vh' }} className="page-container">
         <h1 className='animate-fade-in-up text-center text-primary'>Contact Us</h1>
         <p>
           We'd love to hear from you! Whether you have questions about admissions, programs, or
@@ -57,8 +56,7 @@ const Contact = () => {
         </p>
       </div>
       {/* <Chatbot/> */}
-      <Chatbot/>
-    </div>
+      <Chatbot />
     </div>
   );
 };

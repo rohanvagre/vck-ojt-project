@@ -5,7 +5,7 @@ import './Home.css'; // Make sure to include this CSS file
 const Home = () => {
   return (
     <div className="content">
-      <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container ">
+      {/* <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container "> */}
       <div style={{marginTop:'50px',maxHeight:'76vh'}} className="page-container  p-4">
         <div className="hero-section">
           
@@ -63,7 +63,7 @@ const Home = () => {
       {/* <Chatbot/> */}
 
     </div>
-    </div>
+    // </div>
   );
 };
 
