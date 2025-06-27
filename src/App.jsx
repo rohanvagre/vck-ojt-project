@@ -13,7 +13,8 @@ import AdmissionsPage from './pages/Admissions';
 import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 import { useState } from 'react';
-import DeveloperInfoPopup from './components/Devloperinfo/DeveloperinfoPopup';
+import DeveloperinfoPopup from './components/Devloperinfo/DeveloperinfoPopup';
+
 
 function App() {
 
@@ -25,13 +26,13 @@ function App() {
     <>
       <div>
         {/* Your main application content */}
-        <DeveloperInfoPopup
-          show={showPopup}
+    <DeveloperinfoPopup 
+    show={showPopup}
           onClose={handleClosePopup}
           studentName="Rohan Sanjay Vagre"
           studentPhotoUrl="/image.png" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
-        />
+          />
       </div>
       <div>
       <Router>
