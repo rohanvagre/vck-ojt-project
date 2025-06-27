@@ -13,7 +13,7 @@ import AdmissionsPage from './pages/Admissions';
 import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 import { useState } from 'react';
-import DeveloperinfoPopup from './components/Devloperinfo/DeveloperinfoPopup';
+import DeveloperinfoPopup from './components/DevloperInfo/DeveloperinfoPopup';
 
 
 function App() {
